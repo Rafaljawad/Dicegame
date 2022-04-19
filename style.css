@@ -1,0 +1,59 @@
+body{
+  background-color: #EFDAD7;
+    font-family: 'Quintessential', cursive;
+}
+h1{
+  color: #1572A1;
+
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 3rem;
+}
+h2{
+  color: #1572A1;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+img{
+/* this short code to make all content inside div in the center */
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.row{
+  width:90%;
+  height:300px;
+  margin-left: 60px;
+}
+.btn-danger{
+  margin-top: 100px;
+  margin-left: 580px;
+ margin-bottom: 50px;
+    width:100px;
+  }
+
+.btn:hover{
+    background-color: #1572A1;
+}
+
+footer{
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: #1572A1;
+}
+@media (max-width:900px) {
+  img{
+    width:30%;
+  }
+  .btn-danger{
+    margin-top: 100px;
+    margin-left: 230px;
+   margin-bottom: 50px;
+
+      width:100px;
+    }
+}
